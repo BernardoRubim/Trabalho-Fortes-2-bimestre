@@ -1,0 +1,376 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E5E5E5;
+}
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #232b33;
+    color: #fff;
+}
+
+.menu-icon span {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.logo span {
+    font-size: 14px;
+    font-weight: normal;
+}
+.logo h1{
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+nav ul li a:hover {
+    background-color: #232b33;
+}
+
+.login button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    margin-right: 20px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #ddd;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro h2 span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: inline-flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #5A7184;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #738A9E;
+}
+
+/* carretel de imagem */
+
+.carousel-section {
+    color: #000000;
+    background-color: #ffffff;
+    height: 90vh; /* altura total da viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10.5%;
+    
+}
+
+.container {
+    margin-top: -80px;
+    text-align: center;
+    width: 100%; /* Largura do container ajustada para 75% da largura da viewport */
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Garante que as bordas arredondadas sejam aplicadas corretamente */
+}
+
+h1 {
+
+    color: #000000;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    
+}
+
+.carousel {
+    overflow: hidden; /* oculta as partes da imagem que ultrapassam o container */
+    position: relative;
+    width: 100%; /* Largura do carrossel é 100% do container */
+    height: 70vh; /* altura total da viewport */
+}
+
+.carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1s ease;
+}
+
+
+
+
+
+
+
+
+/* apoiadores */
+
+
+
+.os-apoiadores{
+    
+    color: #000;
+    background-color: #232b33;
+}
+.titulo-apoiadores{
+    font-size: 24px;
+    font-weight: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232b33;
+    color: #fff;
+    padding-top: 110px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #ccc;
+}
+.div-com-foto-texto {
+    display: flex;
+    justify-content: center; /* Centraliza as divs horizontalmente */
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #232b33;
+    
+}
+
+.div-com-foto-texto.invertida {
+    flex-direction: row-reverse; /* Inverte a ordem das divs com foto à direita */
+
+}
+.texto-preto-2{
+    color: #ffffff;
+    flex: 1; /* Ocupa metade da largura da tela */
+    text-align: center; /* Centraliza o conteúdo dentro da div .texto */
+    padding-right: 0%;
+    padding-left: 8%;
+}
+.texto-preto-2 p{
+    text-align: justify;
+}
+
+.conteudo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: #232b33;
+}
+
+.foto {
+    flex: 1; /* Ocupa metade da largura da tela */
+    text-align: center; /* Centraliza o conteúdo dentro da div .foto */
+}
+
+.foto img {
+    max-width: 100%;
+    height: auto;
+    max-height: 350px;
+    border-radius: 4%; /* Deixa a foto redonda */
+}
+
+.texto-preto {
+    color: #ffffff;
+    flex: 1; /* Ocupa metade da largura da tela */
+    text-align: center; /* Centraliza o conteúdo dentro da div .texto */
+    padding-right: 8%;
+    padding-left: 0%;
+}
+
+.texto-preto p {
+    text-align: justify; /* Justifica o texto */
+}
+
+
+
+
+
+
+
+
+
+/* apresentacao */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.titulo-apresentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    background-color: #fff;
+    margin-top: -18px;
+    margin-bottom: -50px;
+}
+
+
+
+.apresentacao {
+    display: flex; /* Faz as divs ficarem lado a lado */
+    justify-content: center; /* Centraliza as divs horizontalmente */
+    align-items: center; /* Centraliza as divs verticalmente */
+    height: 80vh; /* Altura total da viewport */
+    background-color: #ffffff;
+}
+
+.content {
+    flex: 1; /* Faz as divs ocuparem a mesma largura */
+    text-align: center; /* Centraliza o conteúdo dentro das divs */
+    
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.centered h2 {
+    color: #000;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.centered img {
+    width: 50%;
+    height: 55%;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+    max-height: 400px; /* Altura máxima para a imagem */
+    display: block; /* Remove espaço extra em torno da imagem */
+    margin-top: 10px; /* Espaçamento entre o título e a imagem */
+}
+.sec-text{
+    
+    flex: 1; /* Faz as divs ocuparem a mesma largura */
+    text-align: center; /* Centraliza o conteúdo dentro das divs */
+    
+}
+
+
+.text {
+    text-align: center;
+    /* background-color: #ffffff; */
+    padding: 20px;
+    padding-right: 25%;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+}
+.text p{
+    color: #000;
+}
+
+.texto{
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* footer */
+.section-four{
+    color: #fff;
+    display: flex;
+    height: 500px;
+    padding-bottom: 50px;
+    background-color: rgb(20, 20, 20);
+
+}
+.div3-1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.div3-1 > div{
+    display: flex;
+    gap: 0,5rem;
+    padding-top: 20px;
+}
+.div3-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
